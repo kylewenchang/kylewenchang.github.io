@@ -8,4 +8,22 @@ body {background-color: #1e1e22;}
 .p1 {
   font-family: "Lucida Console", "Lucida Console", monospace;
   color: white;
+  font-size:3em;
+}
+
+.p2 {
+  font-family: "Lucida Console", "Lucida Console", monospace;
+  color: white;
+  font-size:2em;
+}
+
+.footer {
+  position: fixed;
+  left: 50px;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-family: "Lucida Console", "Lucida Console", monospace;
+  color: white;
+  font-size:1em;
 }
