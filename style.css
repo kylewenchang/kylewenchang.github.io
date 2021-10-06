@@ -17,7 +17,6 @@ body {background-color: #1e1e22;}
 
 .footer {
   position: fixed;
-  left: 60px;
   bottom: 0;
   width: 100%;
   color: white;
@@ -25,50 +24,52 @@ body {background-color: #1e1e22;}
   color: white;
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1201px) {
   p.p1 {
-    font-size: 5em;
+    font-size: 6vw;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   p.p1 {
-    font-size: 4em;
+    font-size: 4.5em;
   }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1201px) {
   p.p2 {
-    font-size: 3.25em;
+    font-size: 4vw;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   p.p2 {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 861px) {
   div.footer {
     font-size: 1.5em;
+    left: 50px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 860px) {
   div.footer {
     font-size: 1.5em;
+    left: 5.8vw;
   }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 861px) {
   p {
-    margin: 60px;
+    margin: 50px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 860px) {
   p {
-    margin: 30px;
+    margin: 5.8vw;
   }
 }
